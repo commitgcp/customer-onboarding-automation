@@ -9,9 +9,9 @@ We're going to go through a few short steps to get you set up and working with t
 
 Click the **Start** button to move to the next step.
 
-## Step 0 - Login to GCloud
+## Step 0 - Login 
 
-Let's make sure you're logged in and able to use the gcloud CLI. 
+Let's make sure you're logged in and able to use the gcloud CLI. If you're already logged in, you can skip this step. 
 
 To login, execute the following command:
 
