@@ -33,7 +33,7 @@ In order to migrate the projects to our sub-billing account we will need Billing
 To grant the permissions, execute the following command:
 
 ```bash
-./2_billing_project_manager.sh <PROJECT_ID_1> <PROJECT_ID_2> <PROJECT_ID_3> ...
+./2_billing_project_manager.sh <PROJECT_ID_1> <PROJECT_ID_2> ...
 ```
 
 **Tip**: Click the copy button on the side of the code box and paste the command in the Cloud Shell terminal to run it.
@@ -44,17 +44,17 @@ Click "Next" when you've finished.
 
 ## Step 3 - Move Project to Sub-Billing Account
 
-To link the projects to the billing account, execute the following command:
+We need to link the customer's projects to the customer's sub-billing account. To link the projects to the billing account, execute the following command:
 
 ```bash
-./3_link_billing_account.sh <PROJECT_ID_1> <PROJECT_ID_2> <PROJECT_ID_3> ...
+./3_link_billing_account.sh <PROJECT_ID_1> <PROJECT_ID_2> ...
 ```
 
 **Tip**: Click the copy button on the side of the code box and paste the command in the Cloud Shell terminal to run it.
 
 These are the same project IDs you provided in the last step.
 
-You will be prompted for a Billing Account ID. To find this, go to the Billing page: https://console.cloud.google.com/billing and from there, find the desired Sub-Billing Account, and go to "Account Management".
+You will be prompted for a Billing Account ID. To find this, go to the Billing page: https://console.cloud.google.com/billing and from there, find the desired sub-billing account, and go to "Account Management".
 
 Click "Next" when you've finished.
 
