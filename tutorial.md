@@ -81,7 +81,7 @@ Click "Next" when you've finished.
 
 Now we are going to create a billing export project and assign Owner permissions on the project to the Comm-IT team. This project will be used to create a Looker Studio Dashboard for cost analysis. If you do not want this, click "Next" without executing the steps.
 
-To creat the project and grant the permissions, execute the following command:
+To create the project and grant the permissions, execute the following command:
 
 ```bash
 ./5_billing_export_project.sh
@@ -89,7 +89,7 @@ To creat the project and grant the permissions, execute the following command:
 
 **Tip**: Click the copy button on the side of the code box and paste the command in the Cloud Shell terminal to run it.
 
-You will be prompted for a project ID to create a new project. The name should follow the convention companyname-billing. Then you will be prompted for the email of the Comm-IT User or Group to whom you wish to give the Owner role on the project. 
+You will be prompted for a project ID to create a new project. The name should follow the convention companyname-billing. Please record the name that you provide. Then you will be prompted for the email of the Comm-IT User or Group to whom you wish to give the Owner role on the project. 
 
 Click "Next" when you've finished.
 
@@ -97,5 +97,5 @@ Click "Next" when you've finished.
 
 <tutorial-conclusion-trophy></tutorial-conclusion-trophy>
 
-You’re all set to work with Comm-IT!
+You’re all set! Please be in touch with a Comm-IT team member for next steps.
 
