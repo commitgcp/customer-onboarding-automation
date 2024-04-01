@@ -71,6 +71,28 @@ You will be prompted for a Billing Account ID. To find this, go to the Billing p
 
 Click "Next" when you've finished.
 
+## Step 4 - Close Old Billing Account
+
+In order to avoid confusion, we will close the old billing account. To find this, go to the Billing page: https://console.cloud.google.com/billing , under “Account Management” in page of the old billing account you will see the option to “Close Billing Account”. 
+
+Click "Next" when you've finished.
+
+## Step 5 - Create Billing Project
+
+Now we are going to create a billing export project and assign Owner permissions on the project to the Comm-IT team. This project will be used to create a Looker Studio Dashboard for cost analysis. If you do not want this, click "Next" without executing the steps.
+
+To creat the project and grant the permissions, execute the following command:
+
+```bash
+./5_billing_export_project.sh
+```
+
+**Tip**: Click the copy button on the side of the code box and paste the command in the Cloud Shell terminal to run it.
+
+You will be prompted for a project ID to create a new project. The name should follow the convention companyname-billing. Then you will be prompted for the email of the Comm-IT User or Group to whom you wish to give the Owner role on the project. 
+
+Click "Next" when you've finished.
+
 ## Congratulations
 
 <tutorial-conclusion-trophy></tutorial-conclusion-trophy>
