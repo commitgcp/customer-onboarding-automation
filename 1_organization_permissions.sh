@@ -10,13 +10,15 @@ if [ -z "$org_id" ]; then
 else
     # Assign Viewer role to the principal
     gcloud organizations add-iam-policy-binding "$org_id" \
-        --member="user:gcp-support@comm-it.cloud" \
-        --role="roles/viewer"
+        --member="group:gcp-support@comm-it.cloud" \
+        --role="roles/viewer" \
+        --condition=None
 
     # Assign Browser role to the principal
     gcloud organizations add-iam-policy-binding "$org_id" \
-        --member="user:gcp-support@comm-it.cloud" \
-        --role="roles/browser"
+        --member="group:gcp-support@comm-it.cloud" \
+        --role="roles/browser" \
+        --condition=None
 
     echo "Viewer and Browser IAM roles have been assigned to gcp-support@comm-it.cloud for organization ID $org_id"
 fi
