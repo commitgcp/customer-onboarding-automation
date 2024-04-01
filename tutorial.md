@@ -12,28 +12,51 @@ Click the **Start** button to move to the next step.
 
 ## Step 1 - Read Only Permissions on Organization
 
-The first step is to grant read-only permissions to Commit's support team on the customer's organization. We recommend that the client give us permissions as viewers so that our support team can provide a better service, however this is not mandatory. There are clients who prefer not to provide these permissions for compliance or privacy reasons. To grant the permissions,
-execute the command below:
+The first step is to grant read-only permissions to Commit's support team on the customer's organization. We recommend that the client give us permissions as viewers so that our support team can provide a better service, however this is not mandatory. There are clients who prefer not to provide these permissions for compliance or privacy reasons. If you would like to skip this step, click "Next" below without executing the steps in this slide. 
+
+To grant the permissions, execute the following command:
 
 ```bash
 ./1_organization_permissions.sh
 ```
 
-You will be prompted for your Organization ID. To find this, in the GCP Console, browse to your "Organization Root" resource:
+**Tip**: Click the copy button on the side of the code box and paste the command in the Cloud Shell terminal to run it.
 
-![image](images/organization_id.png "Organization ID")
+You will be prompted for your Organization ID. To find this, in the GCP Console, in the top toolbar, left of the search bar, click the dropdown menu and go to the "ALL" tab. Your Organization ID should be next to your Organization name.
+
+Click "Next" when you've finished.
 
 ## Step 2 - Billing Administrator Permissions
 
-Try running a command now:
+In order to migrate the projects to our sub-billing account we will need Billing Administrator permissions in the customer's projects.
+
+To grant the permissions, execute the following command:
+
 ```bash
-echo "Hello Cloud Shell"
+./2_billing_project_manager.sh <PROJECT_ID_1> <PROJECT_ID_2> <PROJECT_ID_3> ...
 ```
 
 **Tip**: Click the copy button on the side of the code box and paste the command in the Cloud Shell terminal to run it.
 
-Next, we'll finish up.
+You must provide Project IDs as arguments to the script, as shown above. To find a project ID, in the GCP Console, in the top toolbar, left of the search bar, click the dropdown menu and find your project name. Its project ID should be next to its name (these are often the same, but not always). Save these project IDs for the next step!
 
+Click "Next" when you've finished.
+
+## Step 3 - Move Project to Sub-Billing Account
+
+To link the projects to the billing account, execute the following command:
+
+```bash
+./3_link_billing_account.sh <PROJECT_ID_1> <PROJECT_ID_2> <PROJECT_ID_3> ...
+```
+
+**Tip**: Click the copy button on the side of the code box and paste the command in the Cloud Shell terminal to run it.
+
+These are the same project IDs you provided in the last step.
+
+You will be prompted for a Billing Account ID. To find this, go to the Billing page: https://console.cloud.google.com/billing and from there, find the desired Sub-Billing Account, and go to "Account Management".
+
+Click "Next" when you've finished.
 
 ## Congratulations
 
