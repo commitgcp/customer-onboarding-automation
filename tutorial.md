@@ -12,7 +12,7 @@ Click the **Start** button to move to the next step.
 
 ## What do I do?
 
-Filler Text
+Filler Text.
 
 ## Next Step
 
