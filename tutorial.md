@@ -9,6 +9,19 @@ We're going to go through a few short steps to get you set up and working with t
 
 Click the **Start** button to move to the next step.
 
+## Step 0 - Login to GCloud
+
+Let's make sure you're logged in and able to use the gcloud CLI. 
+
+To login, execute the following command:
+
+```bash
+gcloud auth login
+```
+
+You will be prompted to navigate to an authentication page. Once you sign in there, you will receive a code, which you must paste back into the terminal, at the prompt. Once you're done, you should see a message that looks like: "You are now logged in as [<YOUR_EMAIL_ADDRESS>]"
+
+Click "Next" when you've finished.
 
 ## Step 1 - Read Only Permissions on Organization
 
