@@ -35,9 +35,7 @@ To grant the permissions, execute the following command:
 
 **Tip**: Click the copy button on the side of the code box and paste the command in the Cloud Shell terminal to run it.
 
-You will be prompted for your Organization ID. To find this, in the GCP Console, in the top toolbar, left of the search bar, click the dropdown menu and go to the "ALL" tab. Your Organization ID should be next to your Organization name.
-
-![image](./images/organization_id.png)
+You will be prompted for your Organization ID. To find this, in the GCP Console, in the top toolbar, left of the search bar, click the dropdown menu and go to the "ALL" tab. Your Organization ID should be next to your Organization name. If you need help, look at the README.md in the GitHub repository for a picture that shows where to find this.
 
 Click "Next" when you've finished.
 
@@ -53,7 +51,7 @@ To grant the permissions, execute the following command:
 
 **Tip**: Click the copy button on the side of the code box and paste the command in the Cloud Shell terminal to run it.
 
-You must provide project IDs as arguments to the script, as shown above. To find a project ID, in the GCP Console, in the top toolbar, left of the search bar, click the dropdown menu and find your project name. Its project ID should be next to its name (these are often the same, but not always). Save these project IDs for the next step!
+You must provide project IDs as arguments to the script, as shown above. To find a project ID, in the GCP Console, in the top toolbar, left of the search bar, click the dropdown menu and find your project name. Its project ID should be next to its name (these are often the same, but not always). Save these project IDs for the next step! If you need help, look at the README.md in the GitHub repository for a picture that shows where to find this.
 
 Click "Next" when you've finished.
 
@@ -69,13 +67,13 @@ We need to link the customer's projects to the customer's sub-billing account. T
 
 These are the same project IDs you provided in the last step.
 
-You will be prompted for a Billing Account ID. To find this, go to the Billing page: https://console.cloud.google.com/billing and from there, find the desired sub-billing account, and go to "Account Management".
+You will be prompted for a Billing Account ID. To find this, go to the Billing page: https://console.cloud.google.com/billing and click on the name of the desired sub-billing account, and go to "Account Management" in the toolbar on the left.
 
 Click "Next" when you've finished.
 
 ## Step 4 - Close Old Billing Account
 
-In order to avoid confusion, we will close the old billing account. To find this, go to the Billing page: https://console.cloud.google.com/billing , under “Account Management” in page of the old billing account you will see the option to “Close Billing Account”. 
+In order to avoid confusion, we will close the old billing account. To find this, go to the Billing page: https://console.cloud.google.com/billing and click on the name of the old billing account. Go to “Account Management” in the toolbar on the left, and you will see the option to “Close Billing Account” near the top of the page, under the search bar. 
 
 Click "Next" when you've finished.
 
