@@ -37,6 +37,8 @@ To grant the permissions, execute the following command:
 
 You will be prompted for your Organization ID. To find this, in the GCP Console, in the top toolbar, left of the search bar, click the dropdown menu and go to the "ALL" tab. Your Organization ID should be next to your Organization name.
 
+![image](./images/organization_id.png)
+
 Click "Next" when you've finished.
 
 ## Step 2 - Billing Administrator Permissions

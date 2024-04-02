@@ -1,4 +1,4 @@
-# Commit GCP Onboarding
+# Commit GCP Customer Onboarding
 
 [Google Cloud Shell](https://cloud.google.com/shell/docs/) is a hosted
 development environment managing resources hosted on Google Cloud Platform.
@@ -10,3 +10,7 @@ Click the open in Cloud Shell button below and select "Trust repo" and "confirm"
 [![Open this project in Cloud
 Shell](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/commitgcp/customer-onboarding-automation.git&page=editor&tutorial=tutorial.md)
 
+
+## Instructions for Finding Relevant Information
+
+![image](./images/organization_id.png)
